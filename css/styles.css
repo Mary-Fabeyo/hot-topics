@@ -255,6 +255,27 @@ body {
   
     
 }
+
+
+@media screen and (min-width: 81rem)  {
+
+.image {
+    max-width: 40%;
+    margin-right: 20px;
+    margin-bottom: 10px; /* Add spacing between image and text */
+    flex: 2;
+  
+}
+
+.text {
+    max-width: 100%;
+    flex: 1;
+    margin-left: -300px;
+    display: flex;
+    align-items: flex-start;
+} 
+    
+}
 @media screen and (min-width: 36rem) and (max-width: 80rem) {
 
      .title {
@@ -532,3 +553,4 @@ body {
         max-width: 100%;
     }
 }
+
