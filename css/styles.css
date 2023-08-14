@@ -1,0 +1,534 @@
+/* COLOURS
+#008000
+#072908
+#333
+#f5f5f5
+#ff9900
+*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Open+Sans&display=swap');
+
+
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Lora', serif;
+}
+/*styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: #333; /* Text color */
+    background-color: #f5f5f5; /* Background color */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation bar styles */
+/*.navbar {
+    background-color: #333; /* Navbar background color */
+   /* color: #fff; /* Navbar text color */
+    /*padding: 10px 0;*/
+/*}*/
+/* Style the navigation content */
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* Style the logo */
+.logo img {
+    max-width: 160px; /* Adjust the size as needed */
+    margin-left: -30px;
+    margin-top: -40px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: -33px;
+}
+
+/* Style the navigation buttons */
+
+.nav-button1 {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px;
+    margin: 0 1rem;
+    font-weight: bold;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    transition: background-color 0.3s ease;
+  
+}
+.nav-button2 {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px;
+    margin: 0 1rem;
+    font-weight: bold;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-right: 750px;
+    transition: background-color 0.3s ease;
+  
+}
+
+
+/* Hover effect */
+.nav-button1:hover {
+    background-color: #072908;
+}
+
+.nav-button2:hover {
+    background-color: #072908;
+}
+
+.main-title{
+    color:#072908;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 45px;
+}
+/* Masthead styles */
+.masthead {
+    background-image: url('../img/masthead-bg.jpg'); /* Masthead background image */
+    background-size: cover;
+    background-color: #072908;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+    margin-top: -50px;
+    
+}
+
+.masthead h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 30px 0;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main-content h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #072908;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #ff9900; /* Hover color */
+}
+
+.company-info p {
+    margin-bottom: 10px;
+}
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .portfolio-card {
+    flex: calc(33.33% - 20px); /* 3 cards per row for desktop */
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+
+.portfolio-card img {
+    max-width: 100%; 
+    border: 2px solid green;
+    border-radius: 1%;
+}
+
+  /* Style the divider */
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+    margin-top: 1rem; 
+    margin-bottom: 3rem; 
+}
+
+
+
+ .image img {
+    width: 100%;
+    max-width: 40%;
+  
+    height: auto;
+    display: block;
+   
+}
+
+
+.title {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 10px; /* Add spacing between title and image */
+}
+
+.article-content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    max-width: 40%;
+    margin-right: 20px;
+    margin-bottom: 10px; /* Add spacing between image and text */
+    flex: 2;
+  
+}
+
+.text {
+    max-width: 100%;
+    flex: 1;
+    margin-left: -300px;
+    display: flex;
+    align-items: flex-start;
+  
+    
+}
+@media screen and (min-width: 36rem) and (max-width: 80rem) {
+
+     .title {
+        
+        text-align: center;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 10px; /* Add spacing between title and image */
+    }
+    
+    .article-content {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .image {
+        max-width: 40%;
+        margin-right: 10px;
+        margin-bottom: 5cm; /* Add spacing between image and text */
+        flex: 2;
+        display: flex;
+        position: static;
+    }
+    
+    .text  {
+        max-width: 100%;
+        flex: 1;
+        margin-left: -200px;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        
+    }
+
+   
+    
+    
+    body {
+       
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+    
+    .nav-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .masthead{
+        margin-top: -1.5%;
+    }
+
+    .nav-links{
+        margin-top: 1rem;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        align-content: center;
+        
+    }
+
+
+    .nav-button1{
+        margin: 0rem 0.4rem;
+        width: 16rem;
+        margin-top: -120%;
+        
+    }
+
+    .nav-button2{
+        margin: 0rem 0.4rem;
+        width: 16rem;
+        margin-top: -120%;
+    }
+    .main-title{
+        text-align: center;
+    }
+
+    .logo {
+     margin-top: -2px;
+     margin-bottom: -20px;
+    }
+
+    
+    .main-content {
+        padding: 30px 0;
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+
+    .masthead h1 {
+        font-size: 2rem;
+    }
+
+ 
+     .portfolio-card {
+        width: calc(25% - 10px); /* Two cards in a row for tablet view */
+        margin: 20px;
+    
+     }
+    }
+@media screen and (max-width: 35rem) {
+
+    .main-content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .article-content {
+        display: block;
+        justify-content: center;
+        
+    }
+
+    .title {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .image img {
+        max-width: 100%;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        justify-self: center;
+    }
+
+    .text {
+        text-align: left;
+        max-width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    
+    /* Adjust the following styles */
+    .portfolio-card {
+        width: 100%; /* Make the portfolio cards full width */
+    }
+
+    .image {
+        width: 100%;
+        max-width: 100%;
+        text-align: center; /* Center the image */
+    }
+
+    .text {
+        max-width: 100%;
+    }
+
+
+    body {
+       
+        font-size: 0.75rem;
+        line-height: 1.5;
+    }
+    .main-title{
+        text-align: center;
+     
+    }
+    .masthead {
+        padding: 80px 0;
+    }
+
+    .masthead h1 {
+        font-size: 1.5rem;
+    }
+
+    .tagline {
+        font-size: 1rem;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+    
+    .nav-content {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+
+    .nav-links {
+        
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .nav-button1 {
+        margin: 0.5rem 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 35rem;
+        margin-top: 44.8%;
+       ;
+    }
+    .nav-button2 {
+        margin: 0.5rem 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 35rem;
+      
+       
+    }
+
+    .masthead {
+      
+        position: absolute;
+        margin-top: 110px;
+        top: 0;
+        width: 35rem;
+        left: 50%;
+        transform: translateX(-50%);
+    
+    }
+    .logo img {
+        max-width: 150px; 
+        margin-top: -40px;
+        
+    }
+    .main-content {
+        padding: 30px 0;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+    
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .social-media a {
+        font-size: 1.2rem;
+    }
+
+    .company-info p {
+        font-size: 0.9rem;
+    }
+    .portfolio-card {
+        flex: 100%; /* 1 card per row for mobile */
+      } 
+      
+      .image {
+        width: 100%;
+        max-width: 80%;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+    }
+    .text {
+        max-width: 100%;
+    }
+}
